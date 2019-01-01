@@ -57,6 +57,19 @@
 \( \mathbf { y } = \mathbf { A x }\) &#8658; \( \frac { \partial \mathbf { y } } { \partial \mathbf { x } } = \mathbf { A }\)
 \(\frac { \partial \alpha } { \partial \mathbf { x } } = 2 \mathbf { x } ^ { \top } \mathbf { A }\)</p>
 </div>
+<div class="literalblock">
+<div class="content">
+<pre>co = checkout
+br = branch
+st = status
+ci = commit
+  f =  !git fetch --all &amp;&amp; git rebase origin/master
+  p =  !git push origin $(git rev-parse --abbrev-ref HEAD)
+  amend =  add -A &amp;&amp; git commit --amend --no-edit
+  c = "!git add -A &amp;&amp; git commit -m "
+  cc = "!git commit --amend -m "</pre>
+</div>
+</div>
 </div>
 </div>
 
