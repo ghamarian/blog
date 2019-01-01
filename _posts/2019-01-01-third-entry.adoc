@@ -9,3 +9,13 @@ If \(\mathbf{y}\) is \(m \times 1\), \(\mathbf{x}\) is \(m \times n\) and \(\mat
 \( \mathbf { y } = \mathbf { A x }\) => \( \frac { \partial \mathbf { y } } { \partial \mathbf { x } } = \mathbf { A }\)
 \(\frac { \partial \alpha } { \partial \mathbf { x } } = 2 \mathbf { x } ^ { \top } \mathbf { A }\)
 
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	ci = commit
+   f =  !git fetch --all && git rebase origin/master
+   p =  !git push origin $(git rev-parse --abbrev-ref HEAD)
+   amend =  add -A && git commit --amend --no-edit
+   c = "!git add -A && git commit -m "
+   cc = "!git commit --amend -m "
