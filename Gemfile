@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'jekyll', '~> 3.8.3'
 gem 'coderay', '~> 1.1.0'
