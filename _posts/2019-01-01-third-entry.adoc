@@ -1,9 +1,11 @@
-= First Entry
+= Matrix Algebra
 :showtitle:
-:page-navtitle: thirds entry
+:page-navtitle: Matrix Algebra
 :page-excerpt: Excerpt goes here.
 :page-root: ../../../
 
-== Example entry
+== Derivatives
+If \(\mathbf{y}\) is \(m \times 1\), \(\mathbf{x}\) is \(m \times n\) and \(\mathbf{ A}\)
+\( \mathbf { y } = \mathbf { A x }\) => \( \frac { \partial \mathbf { y } } { \partial \mathbf { x } } = \mathbf { A }\)
 \(\frac { \partial \alpha } { \partial \mathbf { x } } = 2 \mathbf { x } ^ { \top } \mathbf { A }\)
 
