@@ -31,3 +31,4 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 ```
+$$\mathcal{L}(\theta, q) = \mathbb{E}_{q(z \mid x)} \left[ \log p(x, z \mid \theta) - \log q(z \mid x) \right]$$
